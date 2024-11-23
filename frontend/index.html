@@ -1,13 +1,32 @@
 <!doctype html>
+<!-- The document type declaration specifies that this is an HTML5 document -->
 <html lang="en">
+<!-- The <html> tag is the root element of the HTML document. 
+     The "lang" attribute specifies the language of the document (English in this case). -->
   <head>
+    <!-- The <head> element contains metadata and links to external resources for the document. -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Specifies the character encoding for the document as UTF-8, which supports most characters 
+         and symbols used worldwide. -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Links an SVG file as the favicon for the website. The "type" attribute ensures the correct 
+         file type is specified for the browser. The "href" attribute specifies the path to the icon file. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <!-- Sets the viewport for responsive web design. 
+         "width=device-width" makes the content scale to fit the device width.
+         "initial-scale=1.0" ensures a 1:1 scaling ratio initially. -->
+    <title>Buy Instrument</title>
+    <!-- Specifies the title of the web page, which appears in the browser tab and bookmarks. -->
   </head>
   <body>
+    <!-- The <body> element contains the visible content of the web page. -->
     <div id="root"></div>
+    <!-- A <div> element with the "id" of "root". This is often used as the root element for
+         rendering a JavaScript framework or library's UI components (e.g., React, Vue). -->
     <script type="module" src="/src/main.jsx"></script>
+    <!-- A <script> element to include JavaScript in the document. 
+         "type=module" indicates that the script should be treated as an ES module, enabling the 
+         use of `import` and `export` statements. 
+         The "src" attribute points to the JavaScript entry file, located at "/src/main.jsx". -->
   </body>
 </html>
