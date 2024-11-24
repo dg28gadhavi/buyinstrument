@@ -1,9 +1,0 @@
-/* Importing the TailwindCSS framework.
-   This single import includes all the necessary styles provided by TailwindCSS:
-   - Base styles: Includes browser resets and foundational global styles.
-   - Components: Predefined, customizable classes for common UI elements.
-   - Utilities: A comprehensive set of utility-first classes for rapid styling.
-
-   Note: Ensure TailwindCSS is properly configured in your build pipeline (e.g., PostCSS or Vite).
-*/
-@import "tailwindcss";
