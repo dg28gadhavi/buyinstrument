@@ -1,0 +1,177 @@
+# Node.js-related dependencies
+node_modules/                # Exclude node_modules, which contains installed packages
+.pnp                         # Yarn Plug'n'Play (if using Yarn)
+.pnp.js                      # Yarn Plug'n'Play specific JS file
+.yarn/install-state.gz       # Yarn installation state
+.yarn/cache/                 # Yarn cache
+.yarn/unplugged/             # Unplugged Yarn packages
+.yarn/build-state.yml        # Yarn build state file
+.yarn/releases/              # Yarn release information
+.yarn/patches/               # Yarn patches
+.yarn/plugins/               # Yarn plugins
+.yarn/sdks/                  # Yarn SDK files
+.yarn/versions/              # Yarn versions
+.pnpm/                       # pnpm cache (if using pnpm)
+.npm/                        # npm cache (if using npm)
+
+# Testing-related files
+coverage/                    # Coverage reports (e.g., from Jest, Mocha)
+coverage-ts/                 # TypeScript test coverage
+.nyc_output/                 # NYC coverage output
+cypress/screenshots/         # Cypress test screenshots
+cypress/videos/              # Cypress test videos
+cypress/downloads/           # Cypress downloads
+playwright-report/           # Playwright test reports
+playwright/.cache/           # Playwright cache
+test-results/                # General test results
+*.lcov                       # LCOV coverage files
+
+# Next.js-specific files
+.next/                       # Next.js build output
+out/                         # Static export output
+next-env.d.ts                # Next.js environment types
+.swc/                        # SWC build files (used by Next.js)
+
+# Production-related files
+build/                       # Build output
+dist/                        # Distribution folder
+dist-ssr/                    # SSR (Server Side Render) output
+*.local                      # Local environment-specific files (e.g., .local DNS entries)
+
+# Miscellaneous
+.DS_Store                    # macOS specific file storing folder attributes
+*.pem                        # Private key files
+Thumbs.db                    # Windows thumbnail cache
+desktop.ini                  # Windows folder settings
+ehthumbs.db                  # Windows thumbnail cache
+ehthumbs_vista.db            # Vista thumbnail cache
+
+# Debugging files
+npm-debug.log*               # npm debug logs
+yarn-debug.log*              # Yarn debug logs
+yarn-error.log*              # Yarn error logs
+.pnpm-debug.log*             # pnpm debug logs
+lerna-debug.log*             # Lerna debug logs
+
+# Local environment configuration files
+.env                         # Environment variables file
+.env*.local                  # Environment files for local configurations
+.env.development             # Development environment file
+.env.test                    # Test environment file
+.env.production              # Production environment file
+.env.staging                 # Staging environment file
+.env.local                   # Local environment file
+.env.development.local       # Local development environment file
+.env.test.local              # Local test environment file
+.env.production.local        # Local production environment file
+
+# Turbo (Monorepo build tool) cache
+.turbo
+
+# Vercel-specific files
+.vercel
+
+# TypeScript build info
+*.tsbuildinfo                # TypeScript build information files
+tsconfig.tsbuildinfo         # TypeScript build info for config
+*.d.ts.map                   # TypeScript declaration map files
+
+# IDE - VSCode
+.vscode/*                    # VSCode workspace-specific files
+!.vscode/settings.json       # Keep VSCode settings file
+!.vscode/tasks.json          # Keep VSCode task configurations
+!.vscode/launch.json         # Keep VSCode launch configurations
+!.vscode/extensions.json     # Keep VSCode extensions list
+*.code-workspace             # VSCode workspace files
+
+# IDE - IntelliJ
+.idea/                       # IntelliJ project files
+*.iml                        # IntelliJ module files
+*.iws                        # IntelliJ workspace files
+*.ipr                        # IntelliJ project files
+.idea_modules/               # IntelliJ module folder
+
+# IDE - Other IDEs and tools
+*.suo                        # Visual Studio user options file
+*.ntvs*                      # Visual Studio NTVS project files
+*.njsproj                    # Visual Studio Node.js project files
+*.sln                        # Visual Studio solution files
+*.sw?                        # Temporary files from IDEs
+.project                     # Eclipse project file
+.classpath                   # Eclipse classpath file
+.settings/                   # Eclipse settings folder
+*.sublime-workspace          # Sublime Text workspace files
+*.sublime-project            # Sublime Text project files
+
+# Log files
+logs/                        # Log directories
+*.log                        # Log files
+log.txt                      # Specific log file
+
+# Cache and Build tool files
+.cache/                      # Cache directories
+.mf/                         # Manifest files for build tools
+.rollup.cache/               # Rollup build tool cache
+.astro/                      # Astro framework cache
+.vite/                       # Vite framework cache
+.parcel-cache/               # Parcel build tool cache
+.eslintcache                 # ESLint cache
+.stylelintcache              # Stylelint cache
+.prettiercache               # Prettier cache
+.webpack/                    # Webpack cache
+storybook-static/            # Storybook static output
+.docusaurus/                 # Docusaurus framework cache
+
+# Package manager lock files (optional to ignore)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb                    # Bun package manager lock
+.bun                         # Bun cache
+
+# Build tool-specific files
+.grunt/                      # Grunt task runner files
+.bower-cache/                # Bower cache
+.sass-cache/                 # Sass cache
+bower_components/            # Bower dependencies
+
+# Generated output (e.g., type definitions or code generated files)
+*.generated.*                # Generated files of any kind
+generated/                   # Generated directories
+dist-types/                  # Generated types
+types/generated/             # Generated types directories
+
+# Runtime data files
+pids                         # Process ID files
+*.pid                        # Process ID files
+*.seed                       # Random seed files
+*.pid.lock                   # Lock files related to PID
+
+# Optional temporary and history files
+.node_repl_history           # Node REPL history
+.history/                    # Command line history
+.temp/                       # Temporary files
+tmp/                         # Temporary directories
+temp/                        # Temporary directories
+
+# MERN Stack-specific files
+frontend/build/              # React build output
+frontend/node_modules/       # React node_modules
+backend/node_modules/        # Express node_modules
+backend/logs/                # Express logs
+backend/uploads/             # Express uploads
+backend/temp/                # Express temporary files
+backend/cache/               # Express cache
+backend/coverage/            # Express test coverage
+backend/test-results/        # Express test results
+backend/dist/                # Express distribution folder
+backend/dist-ssr/            # Express SSR output
+backend/pids/                # Express process ID files
+backend/*.pid                # Express process ID files
+backend/*.seed               # Express random seed files
+backend/*.pid.lock           # Express lock files related to PID
+backend/.node_repl_history   # Express Node REPL history
+backend/.history/            # Express command line history
+backend/.temp/               # Express temporary files
+backend/tmp/                 # Express temporary directories
+backend/temp/                # Express temporary directories
