@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Buy Instrument",
+  description: "Platform for industrial instruments: thermocouples, RTD sensors, flowmeters, pH meters, gauges, thermowells, and more from trusted vendors.",
   navItems: [
     {
       label: "Home",
