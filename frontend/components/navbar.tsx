@@ -22,7 +22,7 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { SearchIcon, Logo } from "@/components/icons";
+import { SearchIcon, Logo, WhatsAppIcon } from "@/components/icons";
 
 export const Navbar = () => {
   const searchInput = (
@@ -78,6 +78,7 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
+          <WhatsAppIcon /> {/* Add the WhatsAppIcon here */}
           <ThemeSwitch />
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
