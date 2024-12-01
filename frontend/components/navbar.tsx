@@ -47,7 +47,7 @@ export const Navbar = () => {
   );
 
   return (
-    <NextUINavbar isBordered maxWidth="full" position="sticky">
+    <NextUINavbar className="bg-lightBlue/70 dark:bg-darkBlue/70 transition-colors duration-300" isBordered maxWidth="full" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
