@@ -9,6 +9,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        lightBlue: {
+          DEFAULT: "#d0e7ff",
+        },
+        darkBlue: {
+          DEFAULT: "#1c3a5a",
+        },
+      },
       fontFamily: {
         sans: ["var(--font-sans)"],
         mono: ["var(--font-mono)"],
