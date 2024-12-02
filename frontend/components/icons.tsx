@@ -1,25 +1,36 @@
 import * as React from "react";
 import { IconSvgProps } from "@/types";
 
-export const Logo: React.FC<IconSvgProps> = ({
-  size = 36,
+export const Logo = ({
+  size = 180,
   width,
   height,
   ...props
-}) => (
+}: IconSvgProps) => (
   <svg
-    fill="none"
+    aria-hidden="true"
+    focusable="false"
     height={size || height}
-    viewBox="0 0 32 32"
+    role="presentation"
+    viewBox="0 0 180 32"
     width={size || width}
+    fill="currentColor"
+    fillRule="evenodd"
     {...props}
   >
-    <path
-      clipRule="evenodd"
-      d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-      fill="currentColor"
-      fillRule="evenodd"
-    />
+    <style>
+      {`
+        text {
+          font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+          font-weight: 700;
+          fill: currentColor;
+        }
+      `}
+    </style>
+    <rect width="180" height="32" fill="transparent" />
+    <text x="0" y="24" fontSize="20" letterSpacing="-0.01em">
+      BUY INSTRUMENT
+    </text>
   </svg>
 );
 
