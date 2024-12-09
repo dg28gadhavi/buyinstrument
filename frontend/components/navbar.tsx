@@ -81,7 +81,6 @@ export const Navbar = () => {
             href="https://wa.me/919099622823"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Chat on WhatsApp"
             className="flex items-center justify-center"
           >
             <WhatsAppIcon />
