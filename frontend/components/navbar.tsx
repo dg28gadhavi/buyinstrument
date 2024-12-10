@@ -22,7 +22,7 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { Logo, PhoneIcon, WhatsAppIcon, SearchIcon, ThemesIcon, CartIcon } from "@/components/icons";
+import { Logo, PhoneIcon, WhatsAppIcon, MailIcon, CartIcon, ThemesIcon, SearchIcon } from "@/components/icons";
 
 export const Navbar = () => {
   const searchInput = (
@@ -91,6 +91,14 @@ export const Navbar = () => {
           >
             <WhatsAppIcon />
           </NextLink>
+          <a
+            href="mailto:hrg@aavadinstrument.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center"
+          >
+            <MailIcon />
+          </a>
           <CartIcon />
           <ThemesIcon />
           <ThemeSwitch />
