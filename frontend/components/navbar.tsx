@@ -22,7 +22,7 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { Logo, WhatsAppIcon, SearchIcon, ThemesIcon } from "@/components/icons";
+import { Logo, PhoneIcon, WhatsAppIcon, SearchIcon, ThemesIcon } from "@/components/icons";
 
 export const Navbar = () => {
   const searchInput = (
@@ -77,7 +77,13 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
-        <NextLink
+          <NextLink
+            href="tel:+919099622823"
+            className="flex items-center justify-center"
+          >
+            <PhoneIcon />
+          </NextLink>
+          <NextLink
             href="https://wa.me/919099622823"
             target="_blank"
             rel="noopener noreferrer"
