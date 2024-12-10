@@ -83,6 +83,9 @@ export const Navbar = () => {
           >
             <PhoneIcon />
           </NextLink>
+          <p className="text-inherit text-lg">
+            <a href="tel:+919099622823" className="text-lg">+919099622823</a>
+          </p>
           <NextLink
             href="https://wa.me/919099622823"
             target="_blank"
