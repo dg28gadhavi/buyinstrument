@@ -22,7 +22,7 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { Logo, PhoneIcon, WhatsAppIcon, SearchIcon, ThemesIcon } from "@/components/icons";
+import { Logo, PhoneIcon, WhatsAppIcon, SearchIcon, ThemesIcon, CartIcon } from "@/components/icons";
 
 export const Navbar = () => {
   const searchInput = (
@@ -91,6 +91,7 @@ export const Navbar = () => {
           >
             <WhatsAppIcon />
           </NextLink>
+          <CartIcon />
           <ThemesIcon />
           <ThemeSwitch />
         </NavbarItem>
