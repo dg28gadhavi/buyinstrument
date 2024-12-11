@@ -12,6 +12,7 @@ import {
   Dropdown,
   DropdownMenu,
   Avatar,
+  Badge, 
 } from "@nextui-org/react";
 import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
@@ -102,7 +103,9 @@ export const Navbar = () => {
           >
             <MailIcon />
           </a>
-          <CartIcon />
+          <Badge color="danger" content="0" size="sm" shape="circle" showOutline={false}>
+            <CartIcon />
+          </Badge>
           <ThemesIcon />
           <ThemeSwitch />
         </NavbarItem>
