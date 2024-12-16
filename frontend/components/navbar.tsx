@@ -141,6 +141,9 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
+        <Badge color="danger" content="0" size="sm" shape="circle" showOutline={false}>
+          <CartIcon />
+        </Badge>
         <ThemeSwitch />
         <NavbarMenuToggle />
       </NavbarContent>
